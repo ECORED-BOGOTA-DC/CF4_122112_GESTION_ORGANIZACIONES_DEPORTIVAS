@@ -4,7 +4,7 @@ export default {
       'Mecanismos de seguimiento, control, evaluación y mejora de un proyecto deportivo',
     descripcionCurso:
       'En este componente se abordan elementos generales para realizar el seguimiento, control, evaluación y mejora de los proyectos enfocados a las organizaciones del sector deportivo.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
