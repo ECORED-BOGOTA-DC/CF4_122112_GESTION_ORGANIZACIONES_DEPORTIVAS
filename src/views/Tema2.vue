@@ -41,6 +41,49 @@
 
     p.mb-4(data-aos="fade") La matriz DOFA (Debilidades, Oportunidades, Fortalezas y Amenazas), permite hacer un diagnóstico integral del proyecto desde los aspectos internos (fortalezas y debilidades) y los aspectos externos (oportunidades y amenazas). A continuación, se definen cada uno de los aspectos que integran la matriz DOFA.
 
+    .row.justify-content-center(data-aos="fade-down")
+      .col-md-4.mb-3.mb-md-0
+        .content  
+          .content-overlay
+          .btn-numero.btn-bottom-right
+            h3 F
+          img(src="@/assets/curso/tema-2-img1.svg", alt="Fortalezas") 
+          .tarjeta-details.fadeIn-top.p-1
+            h3 Fortalezas
+            p Constituyen sus mejores y principales elementos, que les permite cumplir con sus objetivos.
+            p Ejemplos: cuáles son mis ventajas, qué hacemos bien.
+      .col-md-4.mb-3.mb-md-0
+        .content  
+          .content-overlay
+          .btn-numero.btn-bottom-left
+            h3 D
+          img(src="@/assets/curso/tema-2-img2.svg", alt="Fortalezas") 
+          .tarjeta-details.fadeIn-top.p-1
+            h3.text-right Debilidades
+            p Son los aspectos negativos de la organización-proyecto que, si no se superan, podrán afectar el desarrollo del mismo.
+            p Ejemplos: qué podría ser mejorado, qué se está haciendo mal, qué podría ser evitado. 
+    
+    .row.justify-content-center(data-aos="fade-down")  
+      .col-md-4.mb-3.mb-md-0
+        .content  
+          .content-overlay
+          .btn-numero.btn-top-right
+            h3 A
+          img(src="@/assets/curso/tema-2-img3.svg", alt="Fortalezas") 
+          .tarjeta-details.fadeIn-top.p-1
+            h3 Amenazas
+            p Factores sobre los cuales no se puede incidir, pero que pueden afectar el funcionamiento del proyecto, dificultando o impidiendo su cumplimiento. 
+            p Ejemplo: obstáculos, competencia, cambios continuos en la dinámica del sector, cambios tecnológicos, impacto de la legislación, efectos ambientales que puedan favorecer la competencia, demanda del mercado, publicidad negativa, vulnerabilidad ante grandes competidores.
+      .col-md-4.mb-3.mb-md-0
+        .content  
+          .content-overlay
+          .btn-numero.btn-top-left
+            h3 O
+          img(src="@/assets/curso/tema-2-img4.svg", alt="Fortalezas") 
+          .tarjeta-details.fadeIn-top.p-1
+            h3.text-right Oportunidades
+            p Factores del entorno que pueden favorecer el cumplimiento del proyecto.
+            p Ejemplo: buenas oportunidades de cambio, tendencias interesantes, cambios en políticas relacionadas con el sector, cambios en estilos de vida y patrones sociales, desarrollo de nuevos productos o servicios, mejores acuerdos con los proveedores.
 
 
 </template>
