@@ -41,7 +41,7 @@
             .col-md-8
               h5 Aplicar acciones correctivas para alcanzar o superar lo proyectado.   
         
-    p.mb-4(data-aos="fade")  Son muchas las situaciones que pueden acontecer durante la ejecución del proyecto que impidan o faciliten el cumplimiento del plan, por lo que el control cobra especial importancia para asegurarse de que todo marche según lo estipulado; es quiere decir, 
+    p.mb-4(data-aos="fade")  Son muchas las situaciones que pueden acontecer durante la ejecución del proyecto que impidan o faciliten el cumplimiento del plan, por lo que el control cobra especial importancia para asegurarse de que todo marche según lo estipulado; es decir, 
       strong  medir el avance real y compararlo con el avance previsto. 
       | Un insumo fundamental para el control del proyecto será el 
       strong cronograma de actividades, 
@@ -185,7 +185,7 @@
           ul.lista-ul--color
             li 
               i.fas.fa-check
-              | Reducir los recursos de otra actividad, sin que afecte su desarrollo ni la calidad del proyecto
+              | Reducir los recursos de otra actividad, sin que afecte su desarrollo ni la calidad del proyecto.
             li 
               i.fas.fa-check
               | Sustituir productos, servicios, materias primas que presten la misma función requerida en el proyecto y a menor costo.

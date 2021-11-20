@@ -34,8 +34,136 @@
 
     p.mb-4(data-aos="fade") Para trabajar a partir de los planes de mejora, es importante reconocer cuáles son los componentes para generar su impacto:
 
-    .video.mb-4(data-aos="fade-down")
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.justify-content-center.bg-gris.mb-5.py-5(data-aos="fade-down")
+      .col-md-9
+        ImagenInfograficaB.color-acento-botones
+          template(v-slot:imagen)
+            figure
+              img.px-md-5(src='@/assets/curso/tema2-infografia.svg', alt='Componentes')
+
+          div.row.justify-content-center.bg-gris2.py-5.px-4.px-md-1(x="50%" y="2.3%" tooltip="Identificar las necesidades de mejora" numero="1")
+            .col-md-2.col-4
+              img.px-md-2(src='@/assets/curso/tema2-ico1.svg', alt='Icono decorativo')
+            .col-md-9
+              h4 Identificación de las necesidades de mejora
+              p Posterior a la evaluación del proyecto, se identifican los aspectos a mejorar a partir del cumplimiento de los objetivos. Para esto es importante articular los actores que participaron en el proceso y tener en cuenta, las oportunidades de mejora y efectos para el proyecto.
+              p
+                strong Por ejemplo, en un proceso centrado en la calidad la oportunidad de mejora se puede centrar en las falencias en el servicio al cliente y su efecto puede ser impactar en la deserción, disminución del número de clientes y la reducción de las ventas. 
+
+          div.row.justify-content-center.bg-gris2.py-5.px-4.px-md-1(x="91.5%" y="26.6%" tooltip="Diagnosticar las causas del problema" numero="2")
+            SlyderA
+              .row.justify-content-center
+                .col-md-2.col-4.mb-4.mb-md-0
+                  img.px-md-2(src='@/assets/curso/tema2-ico2.svg', alt='Icono decorativo')
+                .col-md-9
+                  h4 Diagnosticar las causas del problema
+                  p Un error frecuente es concentrarnos en tratar de solucionar los efectos de un problema en vez de identificar de dónde viene el problema, cuáles son sus causas. Generalmente, un problema trae consigo múltiples causas que  cuales deberán ser identificadas y analizadas para su correcta gestión.
+                  p 
+                    strong Siguiendo en el ejemplo sobre la disminución del cliente, la causa del problema es porque hay mejores ofertas de la competencia, un deficiente servicio al cliente y la inexistencia de programas de fidelización.
+              .row.justify-content-center
+                .col-md-2.col-4.mb-4.mb-md-0
+                  img.px-md-2(src='@/assets/curso/tema2-ico2-2.svg', alt='Icono decorativo')
+                .col-md-9
+                  h4 Para identificar las causas se puede utilizar: 5w – 2h
+                  p.mb-0 <b>What (qué):</b> ¿Qué está pasando? 
+                  p.mb-0 <b>When (cuándo):</b> ¿Cuándo se está presentando?
+                  p.mb-0 <b>Where (dónde):</b> ¿Dónde se están viendo los problemas?
+                  p.mb-0 <b>Who (quién):</b> ¿Quién le están sucediendo?
+                  p.mb-0 <b>Why (por qué):</b> ¿Por qué sucede el problema?
+                  p.mb-0 <b>How (cómo):</b> ¿Cómo se diferencia el problema a la situación óptima?
+                  p.mb-0 <b>How much (cuántos):</b> ¿Cuántos problemas se presentan en el tiempo?, ¿cuánto cuesta?
+              .row.justify-content-center
+                .col-md-2.col-4.mb-4.mb-md-0
+                  img.px-md-2(src='@/assets/curso/tema2-ico2-3.svg', alt='Icono decorativo')
+                .col-md-9
+                  h4 Lluvia de ideas
+                  p Consiste en reunir un grupo de personas conocedoras del tema, en este caso serían las partes interesadas: 
+                  ul.lista-ul--color.color-acento-botones
+                    li.mb-0
+                      i.fas.fa-check
+                      | Equipo ejecutor del proyecto.
+                    li.mb-0
+                      i.fas.fa-check
+                      | Líder del proyecto.
+                    li.mb-0
+                      i.fas.fa-check
+                      | Personas externas del proyecto.
+                    li.mb-0
+                      i.fas.fa-check
+                      | Proveedores.
+                    li.mb-0
+                      i.fas.fa-check
+                      | Clientes.  
+              .row.justify-content-center
+                .col-md-2.col-4.mb-4.mb-md-0
+                  img.px-md-2(src='@/assets/curso/tema2-ico2-4.svg', alt='Icono decorativo')
+                .col-md-9
+                  h4 Diagrama de espina de pescado
+                  p Herramienta útil para identificar las causas principales y secundarias de un problema o efecto. Los pasos para su construcción son los siguientes:
+                  ul.lista-ul--color.color-acento-botones
+                    li.mb-0
+                      i.fas.fa-check
+                      | Definir claramente el problema.
+                    li.mb-0
+                      i.fas.fa-check
+                      | Diseñar una flecha horizontal apuntando hacia la derecha y escribir el problema dentro del recuadro en el extremo derecho de la flecha.
+                    li.mb-0
+                      i.fas.fa-check
+                      | Identificar las causas y ubicarlas en las fechas secundarias que apunten a la fecha principal (entre ellas formarán una estructura similar a la espina de un pescado).
+                    li.mb-0
+                      i.fas.fa-check
+                      | Para la identificación de causas, se podrá emplear otras herramientas como la lluvia de ideas, para recopilar una cantidad más amplia de causas.
+              .row.justify-content-center
+                .col-md-11
+                  img(src='@/assets/curso/tema2-ico2-5.svg', alt='Infografia')
+
+
+          div.row.justify-content-center.bg-gris2.py-5.px-4.px-md-1(x="90.8%" y="74.5%" tooltip="Definir objetivos" numero="3")
+            .col-md-2.col-4
+              img.px-md-2(src='@/assets/curso/tema2-ico3.svg', alt='Icono decorativo')
+            .col-md-9
+              h4 Definir objetivos
+              p Después de tener claridad sobre las acciones de mejora y sus respectivas causas se procede a definir los objetivos y a definirlos se deberá tener en cuenta las siguientes características:
+              ul.lista-ul--color.color-acento-botones
+                li.mb-0
+                  i.fas.fa-check
+                  | Medibles y verificados en el tiempo.
+                li.mb-0
+                  i.fas.fa-check
+                  | Retador y que invite a la mejora y evolución del proceso.
+                li.mb-0
+                  i.fas.fa-check
+                  | Alcanzables en el tiempo.
+                li.mb-0
+                  i.fas.fa-check
+                  | Rentables a partir de los recursos disponibles.
+                li.mb-0
+                  i.fas.fa-check
+                  | Concretos y concisos en su redacción.        
+
+
+          div.row.justify-content-center.bg-gris2.py-5.px-4.px-md-1(x="50%" y="97.6%" tooltip="Seleccionar las acciones de mejora" numero="4")
+            .col-md-2.col-4
+              img.px-md-2(src='@/assets/curso/tema2-ico4.svg', alt='Icono decorativo')
+            .col-md-9
+              h4 Seleccionar las acciones de mejora
+              p Se identifican las posibles alternativas que brinden soluciones en mejora al problema identificado. Se deberá contemplar el costo-beneficio para la organización y la decisión y compromiso de las diferentes partes interesadas.
+              p 
+                strong Por ejemplo: reducir los efectos, controlar las causas y establecer el costo beneficio.
+
+          div.row.justify-content-center.bg-gris2.py-5.px-4.px-md-1(x="9.3%" y="74.5%" tooltip="Establecer un plan de acción " numero="5")
+            .col-md-2.col-4
+              img.px-md-2(src='@/assets/curso/tema2-ico5.svg', alt='Icono decorativo')
+            .col-md-9
+              h4 Establecer un plan de acción 
+              p Se documenta el plan de acción incluyendo los tiempos, responsables, responsabilidades y recursos destinados para el cumplimiento de los objetivos de mejora.
+
+          div.row.justify-content-center.bg-gris2.py-5.px-4.px-md-1(x="8.5%" y="26.6%" tooltip="Controlar el plan de trabajo" numero="6")
+            .col-md-2.col-4
+              img.px-md-2(src='@/assets/curso/tema2-ico6.svg', alt='Icono decorativo')
+            .col-md-9
+              h4 Controlar el plan de trabajo
+              p Se debe controlar el cumplimiento de las actividades estipuladas conforme a los recursos y tiempo establecido.     
 
     p(data-aos="fade") Todos los procesos son susceptibles de mejora por más funcionales y exitosos que sean; y para tal fin existen varios métodos en los que el equipo de trabajo identifica los aspectos a mejorar. Uno de los métodos más populares para esta tarea, es la matriz DOFA, que permite establecer fortalezas, debilidades, amenazas y oportunidades. Para entender un poco más, se definirá, explicará su metodología y se realizará ejercicio práctico. 
 
