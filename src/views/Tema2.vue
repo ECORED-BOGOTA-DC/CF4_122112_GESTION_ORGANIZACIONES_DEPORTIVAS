@@ -41,7 +41,7 @@
             figure
               img.px-md-5(src='@/assets/curso/tema2-infografia.svg', alt='Componentes')
 
-          div.row.justify-content-center.bg-gris2.py-5.px-4.px-md-1(x="50%" y="2.3%" tooltip="Identificar las necesidades de mejora" numero="1")
+          div.row.justify-content-center.bg-gris2.py-5.px-4.px-md-1(x="50%" y="2.3%" tooltip="Clic para ver más" numero="1")
             .col-md-2.col-4
               img.px-md-2(src='@/assets/curso/tema2-ico1.svg', alt='Icono decorativo')
             .col-md-9
@@ -50,14 +50,14 @@
               p
                 strong Por ejemplo, en un proceso centrado en la calidad la oportunidad de mejora se puede centrar en las falencias en el servicio al cliente y su efecto puede ser impactar en la deserción, disminución del número de clientes y la reducción de las ventas. 
 
-          div.row.justify-content-center.bg-gris2.py-5.px-4.px-md-1(x="91.5%" y="26.6%" tooltip="Diagnosticar las causas del problema" numero="2")
+          div.row.justify-content-center.bg-gris2.py-5.px-4.px-md-1(x="91.5%" y="26.6%" tooltip="Clic para ver más" numero="2")
             SlyderA
               .row.justify-content-center
                 .col-md-2.col-4.mb-4.mb-md-0
                   img.px-md-2(src='@/assets/curso/tema2-ico2.svg', alt='Icono decorativo')
                 .col-md-9
                   h4 Diagnosticar las causas del problema
-                  p Un error frecuente es concentrarnos en tratar de solucionar los efectos de un problema en vez de identificar de dónde viene el problema, cuáles son sus causas. Generalmente, un problema trae consigo múltiples causas que  cuales deberán ser identificadas y analizadas para su correcta gestión.
+                  p Un error frecuente es concentrarnos en tratar de solucionar los efectos de un problema en vez de identificar de dónde viene el problema, cuáles son sus causas. Generalmente, un problema trae consigo múltiples causas que deberán ser identificadas y analizadas para su correcta gestión.
                   p 
                     strong Siguiendo en el ejemplo sobre la disminución del cliente, la causa del problema es porque hay mejores ofertas de la competencia, un deficiente servicio al cliente y la inexistencia de programas de fidelización.
               .row.justify-content-center
@@ -118,7 +118,7 @@
                   img(src='@/assets/curso/tema2-ico2-5.svg', alt='Infografia')
 
 
-          div.row.justify-content-center.bg-gris2.py-5.px-4.px-md-1(x="90.8%" y="74.5%" tooltip="Definir objetivos" numero="3")
+          div.row.justify-content-center.bg-gris2.py-5.px-4.px-md-1(x="90.8%" y="74.5%" tooltip="Clic para ver más" numero="3")
             .col-md-2.col-4
               img.px-md-2(src='@/assets/curso/tema2-ico3.svg', alt='Icono decorativo')
             .col-md-9
@@ -130,7 +130,7 @@
                   | Medibles y verificados en el tiempo.
                 li.mb-0
                   i.fas.fa-check
-                  | Retador y que invite a la mejora y evolución del proceso.
+                  | Retadores y que inviten a la mejora y evolución del proceso.
                 li.mb-0
                   i.fas.fa-check
                   | Alcanzables en el tiempo.
@@ -142,23 +142,23 @@
                   | Concretos y concisos en su redacción.        
 
 
-          div.row.justify-content-center.bg-gris2.py-5.px-4.px-md-1(x="50%" y="97.6%" tooltip="Seleccionar las acciones de mejora" numero="4")
+          div.row.justify-content-center.bg-gris2.py-5.px-4.px-md-1(x="50%" y="97.6%" tooltip="Clic para ver más" numero="4")
             .col-md-2.col-4
               img.px-md-2(src='@/assets/curso/tema2-ico4.svg', alt='Icono decorativo')
             .col-md-9
               h4 Seleccionar las acciones de mejora
               p Se identifican las posibles alternativas que brinden soluciones en mejora al problema identificado. Se deberá contemplar el costo-beneficio para la organización y la decisión y compromiso de las diferentes partes interesadas.
               p 
-                strong Por ejemplo: reducir los efectos, controlar las causas y establecer el costo beneficio.
+                strong Por ejemplo: reducir los efectos, controlar las causas y establecer el costo-beneficio.
 
-          div.row.justify-content-center.bg-gris2.py-5.px-4.px-md-1(x="9.3%" y="74.5%" tooltip="Establecer un plan de acción " numero="5")
+          div.row.justify-content-center.bg-gris2.py-5.px-4.px-md-1(x="9.3%" y="74.5%" tooltip="Clic para ver más" numero="5")
             .col-md-2.col-4
               img.px-md-2(src='@/assets/curso/tema2-ico5.svg', alt='Icono decorativo')
             .col-md-9
               h4 Establecer un plan de acción 
               p Se documenta el plan de acción incluyendo los tiempos, responsables, responsabilidades y recursos destinados para el cumplimiento de los objetivos de mejora.
 
-          div.row.justify-content-center.bg-gris2.py-5.px-4.px-md-1(x="8.5%" y="26.6%" tooltip="Controlar el plan de trabajo" numero="6")
+          div.row.justify-content-center.bg-gris2.py-5.px-4.px-md-1(x="8.5%" y="26.6%" tooltip="Clic para ver más" numero="6")
             .col-md-2.col-4
               img.px-md-2(src='@/assets/curso/tema2-ico6.svg', alt='Icono decorativo')
             .col-md-9
