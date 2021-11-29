@@ -12,7 +12,7 @@
     p.mb-4(data-aos="fade") Estimado aprendiz, a través del siguiente video podrá conocer los aspectos relevantes que tratará este componente:
 
     .video(data-aos="fade-down")
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/vA91wuz8T9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     
     

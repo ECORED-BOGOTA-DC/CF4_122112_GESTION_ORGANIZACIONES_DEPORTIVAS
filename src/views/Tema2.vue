@@ -123,7 +123,7 @@
               img.px-md-2(src='@/assets/curso/tema2-ico3.svg', alt='Icono decorativo')
             .col-md-9
               h4 Definir objetivos
-              p Después de tener claridad sobre las acciones de mejora y sus respectivas causas se procede a definir los objetivos y a definirlos se deberá tener en cuenta las siguientes características:
+              p Después de tener claridad sobre las acciones de mejora y sus respectivas causas se procede a definir los objetivos y al definirlos se deberá tener en cuenta las siguientes características:
               ul.lista-ul--color.color-acento-botones
                 li.mb-0
                   i.fas.fa-check
@@ -165,6 +165,11 @@
               h4 Controlar el plan de trabajo
               p Se debe controlar el cumplimiento de las actividades estipuladas conforme a los recursos y tiempo establecido.     
 
+    
+    .video.mb-4(data-aos="fade-down")
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/ZhwkNEQWqx8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    
     p(data-aos="fade") Todos los procesos son susceptibles de mejora por más funcionales y exitosos que sean; y para tal fin existen varios métodos en los que el equipo de trabajo identifica los aspectos a mejorar. Uno de los métodos más populares para esta tarea, es la matriz DOFA, que permite establecer fortalezas, debilidades, amenazas y oportunidades. Para entender un poco más, se definirá, explicará su metodología y se realizará ejercicio práctico. 
 
     p.mb-4(data-aos="fade") La matriz DOFA (Debilidades, Oportunidades, Fortalezas y Amenazas), permite hacer un diagnóstico integral del proyecto desde los aspectos internos (fortalezas y debilidades) y los aspectos externos (oportunidades y amenazas). A continuación, se definen cada uno de los aspectos que integran la matriz DOFA.

@@ -23,7 +23,7 @@
       .col-md-10
         PasosA.color-acento-contenido(tipo="n")
           .row.justify-content-center.align-items-center
-            .col-md-3.col-5.mb-4.mb-md-0
+            .col-md-3.col-8.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/tema1-linea1-ico1.svg', alt='Texto que describa la imagen')
             .col-md-8
@@ -31,11 +31,11 @@
           .row.justify-content-center.align-items-center
             .col-md-8.mb-4.mb-md-0
               h5 Evaluar lo que se requiere para alcanzar los objetivos.
-            .col-md-3.col-5
+            .col-md-3.col-8
               figure
                 img(src='@/assets/curso/tema1-linea1-ico2.svg', alt='Texto que describa la imagen')
           .row.justify-content-center.align-items-center
-            .col-md-3.col-5.mb-4.mb-md-0
+            .col-md-3.col-7.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/tema1-linea1-ico3.svg', alt='Texto que describa la imagen')
             .col-md-8
@@ -51,7 +51,7 @@
       .col-md-10
         PasosA.color-acento-contenido(tipo="n")
           .row.justify-content-center.align-items-center
-            .col-md-3.col-5.mb-4.mb-md-0
+            .col-md-3.col-8.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/tema1-linea2-ico1.svg', alt='Texto que describa la imagen')
             .col-md-8
@@ -59,11 +59,11 @@
           .row.justify-content-center.align-items-center
             .col-md-8.mb-4.mb-md-0
               p ¿Cómo se están desarrollando?
-            .col-md-3.col-5
+            .col-md-3.col-8
               figure
                 img(src='@/assets/curso/tema1-linea2-ico2.svg', alt='Texto que describa la imagen')
           .row.justify-content-center.align-items-center
-            .col-md-3.col-5.mb-4.mb-md-0
+            .col-md-3.col-8.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/tema1-linea2-ico3.svg', alt='Texto que describa la imagen')
             .col-md-8
